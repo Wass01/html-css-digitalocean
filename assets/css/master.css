@@ -37,22 +37,46 @@
 /* navbar */
 
 /* jumbotron */
+.jumbotron{
+  background-image: url("../img/bg-sea.svg");
+  background-repeat: no-repeat;
+  background-size: 2200px;
+  padding-top: 125px;
+  padding-bottom: 70px;
+}
+
+.jumbotron h1{
+  color: #ffffff;
+  font-size: 65px;
+}
+
+.jumbotron p{
+  color: #89AAFF;
+  font-size: 23px;
+}
 
 
-
-@media all and (min-width: 992px)
-  and (max-width: 2000px) {
+/* jumbotron */
+@media all and (min-width: 993px)
+  and (max-width: 1200px) {
   .my-navbar-left{
     margin-left: 30px;
   }
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 992px)
+and (min-width: 768px){
   .navbar-nav{
     display: none;
   }
 
   .navbar-toggle{
     display: block;
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
+  .navbar-header{
+    width: 100%;
   }
 }
