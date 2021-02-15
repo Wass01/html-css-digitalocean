@@ -1,0 +1,16 @@
+/* navbar */
+#my-logo img{
+  height: 30px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#sign-up a{
+  border: 1px solid #006aff;
+  color: #006aff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
