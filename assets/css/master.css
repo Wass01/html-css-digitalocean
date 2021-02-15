@@ -20,6 +20,13 @@
   margin-left: 60px;
 }
 
+.navbar-toggle{
+  color: #006aff;
+  border: none;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
 #sign-up a{
   border: 1px solid #006aff;
   color: #006aff;
