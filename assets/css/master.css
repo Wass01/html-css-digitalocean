@@ -39,8 +39,6 @@
 /* jumbotron */
 .jumbotron{
   background-image: url("../img/bg-sea.svg");
-  background-repeat: no-repeat;
-  background-size: 2200px;
   padding-top: 125px;
   padding-bottom: 70px;
 }
@@ -54,6 +52,39 @@
   color: #89AAFF;
   font-size: 23px;
 }
+
+/* parte destra jumbo */
+.date-personal{
+  background-color: #ffffff;
+  padding: 3%;
+  border-radius: 5px;
+}
+.date-personal h2:first-child{
+  color: #031B4E;
+  text-align: center;
+}
+
+.date-personal h2:last-of-type{
+  color: #006aff;
+  text-align: center;
+}
+
+.credenziali input, button{
+  width: 100%;
+  margin-top: 1em;
+}
+
+.date-personal p{
+  font-size: 15px;
+  color: #031B4E;
+  text-align: center;
+}
+
+#google-logo{
+  height: 20px;
+  text-align: left;
+}
+/* parte destra jumbo */
 
 
 /* jumbotron */
@@ -78,5 +109,25 @@ and (min-width: 768px){
 
   .navbar-header{
     width: 100%;
+  }
+}
+
+@media all and (max-width: 992px){
+  .jumbotron{
+    background-image: url("../img/bg-sea.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 70px;
+  }
+
+  .jumbotron h1{
+    color: #ffffff;
+    font-size: 50px;
+  }
+
+  .jumbotron p{
+    color: #89AAFF;
+    font-size: 19px;
   }
 }
