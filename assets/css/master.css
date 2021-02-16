@@ -182,6 +182,19 @@ input:nth-child(2){
   text-decoration: none;
 }
 
+.four-parts h4{
+  color: #031C4E;
+  font-size: 20px;
+  font-family: Inter-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.four-parts p{
+  font-family: Inter-Regular,"system-ui",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,"sans-serif";
+  color: #5b6987;
+  font-size: 16px;
+}
+
+
 @media all and (min-width: 993px)
   and (max-width: 1200px) {
   .my-navbar-left{
