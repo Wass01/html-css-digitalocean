@@ -55,11 +55,13 @@
 .jumbotron h1{
   color: #ffffff;
   font-size: 65px;
+  font-family: Inter-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .jumbotron p{
   color: #89AAFF;
   font-size: 23px;
+  font-family: Inter-Light;
 }
 
 /* parte destra jumbo */
@@ -81,6 +83,7 @@
 .credenziali input, .credenziali button{
   width: 100%;
   margin-top: 1em;
+  font-family: Inter-Regular;
 }
 
 .credenziali input:nth-child(1),
@@ -131,6 +134,7 @@ input:nth-child(2){
   text-transform: uppercase;
   font-size: 14px;
   margin-top: 3em;
+  font-family: Inter-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .loghi{
@@ -144,8 +148,9 @@ input:nth-child(2){
 
 #p-loghi p{
   text-align: center;
+  font-size: 17px;
   color: #006aff;
-
+  font-family: Inter-Medium, Helvetica, sans-serif;
 }
 /* marche loghi */
 
@@ -158,11 +163,13 @@ input:nth-child(2){
   color: #031C4E;
   font-size: 40px;
   margin-top: 1em;
+  font-family: Inter-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .deploy-scale p{
   color: #5D6B89;
   font-size: 22px;
+  font-family: Inter-Light, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 
 .my-mar-top{
@@ -180,6 +187,11 @@ input:nth-child(2){
 .my-list li a{
   color: #7F89A1;
   text-decoration: none;
+  font-family: Inter-Medium, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.my-pad-bot{
+  padding-bottom: 30px;
 }
 
 .four-parts h4{
@@ -193,7 +205,26 @@ input:nth-child(2){
   color: #5b6987;
   font-size: 16px;
 }
+/* section under loghi */
 
+/* drop menu */
+.drop h2{
+  color: #031B4E;
+  font-size: 36px;
+  margin-top: 1.5em;
+  font-family: Inter-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.drop p:first-of-type{
+  color: #707C97;
+  font-size: 20px;
+}
+
+.drop img{
+  height:300px;
+}
+
+/* drop menu */
 
 @media all and (min-width: 993px)
   and (max-width: 1200px) {
