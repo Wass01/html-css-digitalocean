@@ -266,10 +266,38 @@ input:nth-child(2){
 /* features business  */
 
 /* city section */
+.bg-map{
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #354971;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  margin-top: 3em;
+}
 
+.bg-map .row .text-center h2{
+  color: #ffffff;
+  font-size: 34px;
+}
 
+.city-list li{
+  list-style: none;s
+}
 
+.city-list li p{
+  display: inline-block;
+  color: #929DB3;
+}
 
+.city-list li p a{
+  color: #00d7d2;
+  text-decoration: none;
+}
+
+.city-list li span{
+  color: #ffffff;
+}
 
 /* city section */
 
