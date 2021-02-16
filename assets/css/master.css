@@ -165,6 +165,10 @@ input:nth-child(2){
   font-size: 22px;
 }
 
+.my-mar-top{
+  margin-top: 3em;
+}
+
 .my-list li {
   list-style: none;
   font-size: 21px;
@@ -212,4 +216,16 @@ and (min-width: 768px){
   .jumbotron{
     padding-top: 185px;
   }
+}
+
+@media all and (max-width: 768px){
+
+  .my-mar-top{
+    margin-top: 0;
+  }
+
+  .my-list {
+    margin-top: 3em;
+  }
+
 }
