@@ -34,11 +34,19 @@
   padding: 10px 15px;
   margin-top: 14px;
 }
+
+#sign-up a:hover{
+  background-color:#006aff;
+  color: #ffffff;
+}
 /* navbar */
 
 /* jumbotron */
 .jumbotron{
   background-image: url("../img/bg-sea.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   padding-top: 125px;
   padding-bottom: 70px;
 }
@@ -56,7 +64,7 @@
 /* parte destra jumbo */
 .date-personal{
   background-color: #ffffff;
-  padding: 3%;
+  padding: 1% 3%;
   border-radius: 5px;
 }
 .date-personal h2:first-child{
@@ -74,20 +82,66 @@
   margin-top: 1em;
 }
 
+.credenziali input:nth-child(1),
+input:nth-child(2){
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(229, 232, 237);
+}
+
+.credenziali input:nth-child(3){
+  background-color: #579AFF;
+  border-color: #579AFF;
+  color: #ffffff;
+}
+
+.credenziali button{
+  box-shadow: 2px 2px rgb(229, 232, 237);
+  border: none;
+}
+
 .date-personal p{
-  font-size: 15px;
+  font-size: 14px;
   color: #031B4E;
   text-align: center;
+  margin-top: 1em;
+}
+
+.date-personal p a{
+  color: #006aff;
+  text-decoration: underline;
 }
 
 #google-logo{
   height: 20px;
-  text-align: left;
 }
 /* parte destra jumbo */
-
-
 /* jumbotron */
+
+/* marche loghi */
+.my-bg-grey{
+  background-color: #F3F5F9;
+  margin-top: -30px;
+}
+
+#title-loghi h5{
+  text-align: center;
+  color: #A1ABBC;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 3em;
+}
+
+.loghi div img{
+
+}
+
+#p-loghi p{
+  text-align: center;
+  color: #006aff;
+}
+
+
 @media all and (min-width: 993px)
   and (max-width: 1200px) {
   .my-navbar-left{
@@ -104,7 +158,8 @@ and (min-width: 768px){
   .navbar-toggle{
     display: block;
     margin-right: 0;
-    padding: 10px 0;
+    padding-left:0;
+    padding-right:0;
   }
 
   .navbar-header{
@@ -113,21 +168,12 @@ and (min-width: 768px){
 }
 
 @media all and (max-width: 992px){
-  .jumbotron{
-    background-image: url("../img/bg-sea.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 125px;
-    padding-bottom: 70px;
-  }
 
   .jumbotron h1{
-    color: #ffffff;
     font-size: 50px;
   }
 
-  .jumbotron p{
-    color: #89AAFF;
-    font-size: 19px;
+  .jumbotron{
+    padding-top: 185px;
   }
 }
