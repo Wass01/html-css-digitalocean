@@ -282,7 +282,13 @@ input:nth-child(2){
 }
 
 .city-list li{
-  list-style: none;s
+  list-style: none;
+  height: 50px;
+  padding: 15px 0;
+}
+
+.city-list li:not(li:last-child){
+  border-bottom: 1px solid #ffffff;
 }
 
 .city-list li p{
@@ -290,13 +296,14 @@ input:nth-child(2){
   color: #929DB3;
 }
 
-.city-list li p a{
+.city-list li a{
   color: #00d7d2;
   text-decoration: none;
 }
 
 .city-list li span{
   color: #ffffff;
+  margin-left: 10px;
 }
 
 /* city section */
