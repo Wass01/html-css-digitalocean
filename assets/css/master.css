@@ -370,7 +370,7 @@ input:nth-child(2){
 /* blu section */
 .bg-blue{
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   background-image: url("../img/bg-blue.svg");
 }
 
@@ -393,6 +393,40 @@ input:nth-child(2){
   text-decoration: none;
 }
 /* blu section */
+
+/* footer */
+.bg-blue-strong{
+  background-color: #031C4E;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fa-digital-ocean{
+  color: #006aff;
+  font-size: 50px;
+}
+
+.copyright p{
+  margin-top: 10px;
+  color: #7A859D;
+  font-size: 15px;
+}
+
+.copyright p span{
+  color: #556383;
+}
+
+
+.social li{
+  display: inline-block;
+  list-style: none;
+  color: #7A859D;
+  font-size: 22px;
+  padding-right: 10px;
+  position: relative;
+  right: 30px;
+}
+/* footer */
 
 @media all and (min-width: 993px)
   and (max-width: 1200px) {
