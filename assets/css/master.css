@@ -338,7 +338,7 @@ input:nth-child(2){
 
 .box-drop p a{
   text-decoration: none;
-  color:  #006aff;
+  color: #006aff;
   font-size: 19px;
 }
 
@@ -367,6 +367,32 @@ input:nth-child(2){
 }
 /* second drop menu */
 
+/* blu section */
+.bg-blue{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("../img/bg-blue.svg");
+}
+
+.bg-blue .text-center h2{
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+.my-but{
+  background-color: #ffffff;
+  border: 1px solid #000;
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #006aff;
+}
+
+.my-but:hover{
+  text-decoration: none;
+}
+/* blu section */
 
 @media all and (min-width: 993px)
   and (max-width: 1200px) {
