@@ -444,7 +444,28 @@ input:nth-child(2){
   font-size: 18px;
 }
 /* list foot */
+.shark-fix img{
+  height: 70px;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 111;
+  bottom: 20px;
+  right: 20px;
+}
 
+.shark-fix p{
+  color: #031C4E;
+  font-size: 17px;
+  background-color: #ffffff;
+  width: 20%;
+  border-radius: 5px;
+  padding: 10px;
+  position: fixed;
+  z-index: 111;
+  bottom: 15px;
+  right: 110px;
+  filter: drop-shadow(2px 4px 2px #ffffff);
+}
 /* footer */
 
 @media all and (min-width: 993px)
@@ -489,6 +510,11 @@ and (min-width: 768px){
   .img-select i{
     font-size: 35px;
   }
+
+  .shark-fix p{
+    color: #031C4E;
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 768px){
@@ -522,6 +548,13 @@ and (min-width: 768px){
 
   .box-drop{
     width: 65%;
+  }
+
+  .shark-fix p{
+    color: #031C4E;
+    font-size: 10px;
+    background-color: #ffffff;
+    width: 50%;
   }
 }
 
