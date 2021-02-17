@@ -426,6 +426,25 @@ input:nth-child(2){
   position: relative;
   right: 30px;
 }
+
+/* list foot */
+.my-list-foot li{
+  list-style: none;
+  padding-top: 10px;
+}
+
+.my-list-foot li a{
+  text-decoration: none;
+  color: #7A859D;
+  font-size: 14px;
+}
+
+.my-list-foot li:first-child{
+  color: #ffffff;
+  font-size: 18px;
+}
+/* list foot */
+
 /* footer */
 
 @media all and (min-width: 993px)
